@@ -132,12 +132,6 @@ p {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.active {
-  display: block !important;
-  min-height: auto !important;
-  max-height: 100vh !important;
-}
-
 .menu {
   display: none;
   position: fixed;
@@ -148,6 +142,10 @@ p {
   background: #314584;
   text-align: center;
   z-index: 10;
+}
+
+.active {
+  display: block;
 }
 
 .menu__list {
