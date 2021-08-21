@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Doob</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <a href="" class="header__logo"
+          ><img src="./images/Logo.png" alt=""
+        /></a>
+        <div class="mobile-menu">
+          <button class="mobile-menu__btn"></button>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#header" class="menu__link"> Home. </a>
+            </li>
+            <li class="menu__item">
+              <a href="#about" class="menu__link"> About us. </a>
+            </li>
+            <li class="menu__item">
+              <a href="#portfolio" class="menu__link"> Portfolio. </a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__link"> Blog. </a>
+            </li>
+            <li class="menu__item">
+              <a href="#contact" class="menu__link"> Contact us. </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__right-side">
+          <select name="lang" id="lang" class="header__select">
+            <option selected value="EN">EN</option>
+            <option value="RU">RU</option>
+          </select>
+          <a href="#contact" class="header__button">Contact Us</a>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__offer">
+            <h1 class="about__title">The Spirit of Digital Agency.</h1>
+            <p class="about__text">
+              Vestibulum ac diam sit amet aquam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan ticnidunt.
+            </p>
+            <div class="more-group">
+              <button class="more-group__btn btn">More About us</button>
+              <a href="/" class="more-group__link">Get in Touch.</a>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="illustration">
+              <img
+                class="illustration_img"
+                src="./images/Vector_Illustration.png"
+                alt="illustration"
+              />
+            </div>
+            <div class="illustration">
+              <img
+                class="illustration_img"
+                src="./images/raccoon1.jpg"
+                alt="illustration"
+              />
+            </div>
+            <div class="illustration">
+              <img
+                class="illustration_img"
+                src="./images/raccoon2.jpg"
+                alt="illustration"
+              />
+            </div>
+            <div class="illustration">
+              <img
+                class="illustration_img"
+                src="./images/raccoon3.jpg"
+                alt="illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">See some of our Creative work.</h2>
+          <ul class="gallery">
+            <li class="gallery__block"></li>
+            <li class="gallery__block"></li>
+            <li class="gallery__block"></li>
+            <li class="gallery__block"></li>
+            <li class="gallery__block"></li>
+            <li class="gallery__block"></li>
+          </ul>
+          <a class="portfolio__link" href="/">See More of These.</a>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <span class="contact__text">contact us</span>
+          <h2 class="contact__title">Get in Touch</h2>
+          <form class="form">
+            <input
+              type="email"
+              placeholder="Your email"
+              required
+              class="form__control"
+              name="email"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              required
+              class="form__control"
+              name="subject"
+            />
+            <textarea
+              name="textarea"
+              placeholder="Message here..."
+              class="form__control form__control_msg"
+              name="textarea"
+            ></textarea>
+            <button type="submit" class="form__btn btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">DOOB</p>
+      <h2 class="footer__title">CREATIVITY ABOVE</h2>
+      <ul class="footer-nav">
+        <li class="footer-nav__item">
+          <a href="#header" class="footer-nav__link">Home.</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#about" class="footer-nav__link">About us.</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#portfolio" class="footer-nav__link">Portfolio.</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#" class="footer-nav__link">Blog.</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#contact" class="footer-nav__link">Contact us.</a>
+        </li>
+      </ul>
+      <p class="footer__term">&copy; 2019 - Doob,All Right Reserved</p>
+      <ul class="footer-socials">
+        <li class="footer-socials__item">
+          <a href="#" class="footer-socials__link">
+            <img
+              src="./images/Facebook.png"
+              alt="facebook"
+              width="12"
+              height="22"
+            />
+          </a>
+        </li>
+        <li class="footer-socials__item">
+          <a href="#" class="footer-socials__link">
+            <img
+              src="./images/Twitter.png"
+              alt="twitter"
+              width="22"
+              height="22"
+            />
+          </a>
+        </li>
+        <li class="footer-socials__item">
+          <a href="#" class="footer-socials__link">
+            <img
+              src="./images/Dribble.png"
+              alt="dribble"
+              width="22"
+              height="22"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./slick.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
